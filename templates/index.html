@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipment Maintenance Log - Industrial CMMS</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-icon">🏭</span>
+                <span class="brand-text">Equipment Maintenance Log</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <!-- Will be populated by JavaScript based on auth state -->
+            </div>
+            <div class="nav-user" id="navUser">
+                <!-- Will be populated by JavaScript -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content" id="mainContent">
+        <!-- Content will be dynamically loaded here -->
+    </main>
+
+    <!-- Modal Container -->
+    <div id="modalContainer"></div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/equipment.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/maintenance.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/failures.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/reports.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/users.js') }}"></script>
+</body>
+
+</html>
