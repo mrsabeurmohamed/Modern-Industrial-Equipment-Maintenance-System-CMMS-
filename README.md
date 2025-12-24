@@ -8,7 +8,7 @@
 </div>
 
 ---
-#### Video Demo: <[URL HERE]([https://youtu.be/ar82ZslhgGI)]>
+#### Video Demo: <[URL HERE](https://youtu.be/ar82ZslhgGI)>
 ## 🌟 Overview
 
 The **Industrial Equipment Maintenance Log (CMMS)** is a high-performance, enterprise-ready solution designed for mission-critical industrial environments. It provides a seamless interface for managing assets, tracking maintenance history, and responding to critical equipment failures in real-time.
@@ -131,4 +131,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
   <strong>Powering Industrial Performance</strong> 🏭
 </div>
+
 
